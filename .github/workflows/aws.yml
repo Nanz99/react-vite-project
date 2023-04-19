@@ -50,6 +50,7 @@ jobs:
     environment: production
 
     steps:
+    - run:  echo Nguyenanhnhut
     - name: Checkout
       uses: actions/checkout@v3
 
